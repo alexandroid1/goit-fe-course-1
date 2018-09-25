@@ -69,6 +69,7 @@ ul {
 
 .lifestyle {
     font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
     text-transform: uppercase;
 }
@@ -79,7 +80,7 @@ ul {
 }
 
 .text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 22px;
     color: #626262;
 }
@@ -114,4 +115,5 @@ button {
     border: 1px solid #626262;
     padding: 20px 36px;
     margin-bottom: 70px;
+    cursor: pointer;
 }
