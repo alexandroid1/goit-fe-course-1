@@ -42,6 +42,10 @@ clearfix::after {
 
 /*HEADER*/
 
+.site_navigation_wrapper {
+    margin-bottom: 74px;
+}
+
 .logo {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -88,6 +92,10 @@ nav {
 
 /*PRODUCTS*/
 
+.products_wrapper {
+    margin: 0 0 906px 0;
+}
+
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -100,7 +108,8 @@ h2 {
 h2::after {
     content: '';
     display: block;
-    height: 60px;
+    margin: 30px 0 94px 0;
+    height: 10px;
     background: url(../img/line.png) no-repeat center;    
 }
 .products_item img {
@@ -112,7 +121,7 @@ h2::after {
 .products_item {
     float: left;
     display: block;
-    margin: 0 30px 30px 0;
+    margin: 0 31px 30px 0;
 }
 
 .products_item:hover .product_name {
@@ -129,7 +138,6 @@ h2::after {
 
 .product_info {
     width: 254px;
-    height: 40px;
     font-size: 18;
     font-family: 'Roboto', sans-serif;
 }
@@ -200,6 +208,8 @@ button {
     border: 0px;
     padding: 20px 44px;
     font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 80px;
 }
 
 
