@@ -90,6 +90,7 @@ ul {
     display: inline-block;
     margin-right: 60px;
     margin-bottom: 135px;
+    vertical-align: top;
 } 
 
 .content li:nth-child(2n) {
