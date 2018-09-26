@@ -34,7 +34,7 @@ img {
     height: auto;
 }
 
-clearfix::after {
+.clearfix::after {
     display: table;
     content: '';
     clear: both;
@@ -86,7 +86,6 @@ nav {
 }
 
 .menu {
-    width: px;
     margin-top: 0;
 }
 
@@ -137,7 +136,7 @@ h2::after {
 }
 
 .product_name {
-    font-size: 18;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     display: block;
     background-color: #323232;
@@ -152,7 +151,7 @@ h2::after {
 }
 
 .price {
-    font-size: 18;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     display: block;
     background-color: #8c8c8c;
@@ -179,7 +178,8 @@ h2::after {
 }
 
 .news_item img {
-    height: 262px;;
+    height: 262px;
+    margin-bottom: 80px;
 }
 
 .news_title {
@@ -195,19 +195,19 @@ h2::after {
 }
 
 .news_description {
-    
+    margin-bottom: 40px;
     font-size: 14px;
 }
 
-button {
+.read_more {
     background-color: #4ec6ab;
     color: #ffffff;
     border-radius: 3px;
     border: 0px;
     padding: 20px 44px;
     font-size: 16px;
-    cursor: pointer;
     margin-bottom: 80px;
+    cursor: pointer;
 }
 
 
