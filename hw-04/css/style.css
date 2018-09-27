@@ -107,9 +107,10 @@ h2 {
 h2::after {
     content: '';
     display: block;
-    margin: 30px 0 94px 0;
-    height: 10px;
-    background: url(../img/line.png) no-repeat center;    
+    margin: 30px auto 94px auto;
+    height: 7px;
+    width: 164px;
+    background-color: #1abc9c;            
 }
 .products_item img {
     height: 284px;
@@ -190,8 +191,10 @@ h2::after {
 .news_title::after {
     content: '';
     display: block;
-    height: 30px;
-    background: url(../img/line_01.png) no-repeat left;
+    margin: 30px 0;
+    height: 4px;
+    width: 136px;
+    background-color: #1abc9c;
 }
 
 .news_description {
@@ -208,6 +211,7 @@ h2::after {
     font-size: 16px;
     margin-bottom: 80px;
     cursor: pointer;
+    outline: none;
 }
 
 
