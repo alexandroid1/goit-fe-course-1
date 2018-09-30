@@ -29,8 +29,11 @@ ul {
     margin-top: 38px;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    color: #323232;
     text-transform: uppercase;
+}
+
+.logo a {
+    color: #323232;
 }
 a {
     text-decoration: none;
