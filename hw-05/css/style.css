@@ -65,6 +65,7 @@ nav {
 nav a {
     font-family: 'OpenSans', sans-serif;
     font-size: 14px;
+    font-weight: 600;
     color: #111111;
     text-transform: uppercase;
 }
@@ -145,10 +146,10 @@ nav a:hover {
     width: 100%;
 }
 
-h1 {
+.new_collection_header {
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    font-weight: 900;
+    font-size: 58px;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: #515151;
@@ -160,8 +161,7 @@ h1 {
 .overlay {
     width: 235px;
     height: 187px; 
-    background-color: rgb(0, 0, 0);
-    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: 10px;
     left: 10px;
@@ -170,7 +170,7 @@ h1 {
 }
 
 .new_collection_item:hover .overlay {
-    opacity: 0.549;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .new_collection_item:hover .item_name {
@@ -181,16 +181,24 @@ h1 {
     background-color: #7fd9c7;
 }
 
+.new_collection_item:hover .new_collection_button {
+    opacity: 1;
+}
+
 .new_collection_button {
     background-color: transparent;
-    border: #ffffff 1px solid;
+    border: rgba(255, 252, 252, 1) 1px solid;
+    color: rgba(255, 252, 252, 1);
     margin-bottom: 10px;
     background-repeat: no-repeat;
+    opacity: 0;
+    outline: none;    
 }
 
 .new_collection_button:last-child {
     margin-bottom: 0;
 }
+
 
 .new_collection_button:hover {
     background-color: #1abc9c;
@@ -208,11 +216,11 @@ h1 {
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #ffffff;
     text-transform: uppercase;
     text-align: right;
     background: url(../img/add.png) no-repeat;
     background-position: 10px 10px;    
+    background-color: #323232;
 }
 
 .share {
@@ -259,14 +267,15 @@ h1 {
 }
 
 .item_name {
-    width: 200px;
+    width: 190px;
     height: 30px;
     display: inline-block;
     background-color: #323232;
     margin: 0;    
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
     float: left;
-    padding-top: 10px;
+    padding: 10px 0 0 10px;
 }
 
 .new_collection_item img {
@@ -308,7 +317,7 @@ footer ul {
     font-weight: 500;
 }
 
-.footer_item span {
+.themen {
     color: #1abc9c;
     font-weight: 600;
 }
