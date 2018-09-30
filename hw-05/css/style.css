@@ -22,6 +22,12 @@ ul {
     padding: 0;
 }
 
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /*NAVIGATION*/
 
 .logo {
@@ -188,6 +194,8 @@ nav a:hover {
 
 .item_img_wrap {
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 .new_collection_item:hover .overlay {
     background-color: rgba(0, 0, 0, 0.5);
@@ -272,7 +280,7 @@ nav a:hover {
     margin: 0 30px 0 0;
     padding: 0;
     background-color: #323232;
-    /*height: 324px;*/
+    height: 324px;
 }
 
 
@@ -287,6 +295,11 @@ nav a:hover {
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+}
+a {
+    margin: 0;
+    padding: 0;
     display: inline-block;
 }
 
@@ -316,6 +329,7 @@ nav a:hover {
     padding: 10px 0;
     margin: 0;
 }
+
 
 /*FOOTER*/
 

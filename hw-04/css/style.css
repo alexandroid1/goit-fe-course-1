@@ -8,8 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-}
 
 .page_wrapper {
     width: 1110px;
@@ -122,6 +120,7 @@ nav {
     float: left;
     display: block;
     margin: 0 31px 30px 0;
+    background-color: #323232;
 }
 
 .products_item:hover .product_name {
@@ -140,14 +139,13 @@ nav {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     display: block;
-    background-color: #323232;
+    background-color: rgba (255, 255, 255, 0.5);
     color: #ffffff;
     text-transform: uppercase;
     width: 202px;
-    height: 40px;
     margin: 0;
     float: left;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 10px 10px;
     
 }
 
@@ -158,10 +156,9 @@ nav {
     background-color: #8c8c8c;
     color: #ffffff;
     width: 52px;
-    height: 40px;
     float: right;
     margin: 0;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 10px 10px;
 }
 
 /*NEWS*/
