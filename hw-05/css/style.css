@@ -270,6 +270,7 @@ nav a:hover {
     float: left;
     width: 255px;
     margin: 0 30px 0 0;
+    padding: 0;
     background-color: #323232;
     /*height: 324px;*/
 }
