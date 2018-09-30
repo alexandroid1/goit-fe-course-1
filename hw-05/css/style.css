@@ -77,11 +77,15 @@ nav a:hover {
 /*SLIDER*/
 
 .slider_wrapper {
+    
+    height: 600px;
+    width: 100%;
+    
+}
+.slider_photo_item {
     background: url(../img/slider_bg.png);
     background-blend-mode: multiply;
     background-color: rgba(17, 17, 17, 0.52);
-    height: 600px;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -128,6 +132,9 @@ nav a:hover {
     opacity: 0.8;
 }
 
+.slider_button:hover {
+    opacity: 1;
+}
 
 .next {
     right: 0;     
@@ -172,12 +179,16 @@ nav a:hover {
     height: 187px; 
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     padding-top: 78px;
 }
 
+.item_img_wrap {
+    position: relative;
+}
 .new_collection_item:hover .overlay {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -259,12 +270,15 @@ nav a:hover {
     float: left;
     width: 255px;
     margin: 0 30px 0 0;
-    position: relative;
+    background-color: #323232;
+    /*height: 324px;*/
 }
+
 
 .new_collection_item:last-child {
     margin-right: 0;
 }
+
 
 .new_collection_item a {
     color: #ffffff;
@@ -277,14 +291,12 @@ nav a:hover {
 
 .item_name {
     width: 190px;
-    height: 30px;
     display: inline-block;
-    background-color: #323232;
     margin: 0;    
     text-align: left;
     font-size: 18px;
     float: left;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 10px 10px;
 }
 
 .new_collection_item img {
@@ -296,12 +308,11 @@ nav a:hover {
 
 .item_price {
     width: 55px;
-    height: 30px;
-    background-color: #8c8c8c;
+    background-color: rgba(255, 255, 255, 0.5);
     display: inline-block;
     float: right;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 0;
     margin: 0;
 }
 
