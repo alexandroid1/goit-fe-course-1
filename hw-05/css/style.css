@@ -280,7 +280,8 @@ nav a:hover {
     margin: 0 30px 0 0;
     padding: 0;
     background-color: #323232;
-    height: 324px;
+    line-height: 0;
+    /*height: 324px;*/
 }
 
 
@@ -310,7 +311,7 @@ a {
     text-align: left;
     font-size: 18px;
     float: left;
-    padding: 10px 0 10px 10px;
+    padding: 20px 0 20px 10px;
 }
 
 .new_collection_item img {
@@ -326,7 +327,12 @@ a {
     display: inline-block;
     float: right;
     text-align: center;
-    padding: 10px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 20px 0;
     margin: 0;
 }
 
