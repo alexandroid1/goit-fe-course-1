@@ -94,6 +94,7 @@ nav a:hover {
     background-color: rgba(17, 17, 17, 0.52);
     background-repeat: no-repeat;
     background-size: cover; 
+    height: 600px;
 }
 
 .slider {
@@ -154,10 +155,11 @@ nav a:hover {
 
 /* NEW COLLECTION*/
 
-.new_collection_wrapper {
+.new_collection {
     background-color: #e9f0fd;
     width: 100%;
 }
+
 
 .new_collection_header {
     font-family: 'Roboto', sans-serif;
