@@ -34,6 +34,7 @@ ul {
     display: inline-block;
     margin-top: 38px;
     font-size: 30px;
+    font-weight: 200;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
@@ -51,6 +52,7 @@ header {
 
 .logo a::first-letter {
     color: #1abc9c;
+    font-weight: 700;
 }
 
 .menu_item {
