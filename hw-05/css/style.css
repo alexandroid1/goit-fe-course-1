@@ -33,14 +33,14 @@ ul {
 .logo {
     display: inline-block;
     margin-top: 38px;
-    font-size: 30px;
-    font-weight: 200;
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
 .logo a {
-    color: #323232;
+    color: #555252;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
 }
 a {
     text-decoration: none;
@@ -52,7 +52,7 @@ header {
 
 .logo a::first-letter {
     color: #1abc9c;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .menu_item {
@@ -183,7 +183,7 @@ nav a:hover {
     margin: 30px auto 0 auto;
 }
 /*OVERLAY*/
-
+/*
 .overlay {
     width: 235px;
     height: 187px; 
@@ -194,6 +194,22 @@ nav a:hover {
     transform: translate(-50%, -50%);
     text-align: center;
     padding-top: 78px;
+}*/
+.overlay {     
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+}
+
+.button_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .item_img_wrap {
