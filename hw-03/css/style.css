@@ -8,9 +8,14 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    font-family: "Playfair Display", "Arial", sans-serif;
-    font-size: 14px;
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
     background-color: #fff;
     margin: 0 auto;
     text-align: center;
@@ -18,10 +23,6 @@ body {
 
 /*MENU*/
 
-ul {
-    list-style: none;
-   /* font-size: 0px;   */
-}
 
 .menu {
     margin: 0 auto;
@@ -43,6 +44,8 @@ ul {
 }
 
 .menu_item a {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -52,18 +55,18 @@ ul {
 
 /*CONTENT*/
 
-.content_wrapper {
+.content {
     width: 900px;
     margin: 0 auto;
     font-size: 0px;
     text-align: left;
 }
 
-.content_wrapper ul li a {
+.list_item a {
     text-decoration: none;
 }
 
-.content ul{
+.list{
     padding: 0;
 }
 
@@ -76,16 +79,19 @@ ul {
 
 .content h2 {
     font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
     color: #626262;
 }
 
 .text {
+    font-family: 'Playfair Display', serif;
     font-size: 14px;
     line-height: 22px;
     color: #626262;
 }
 
-.content li {
+.list_item {
     width: 420px;
     display: inline-block;
     margin-right: 60px;
@@ -93,7 +99,7 @@ ul {
     vertical-align: top;
 } 
 
-.content li:nth-child(2n) {
+.list_item:nth-child(2n) {
     margin-right: 0;
 }
 
@@ -110,11 +116,14 @@ ul {
 /*BUTTON*/
 
 button {
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     color: #626262;
     background-color: #fff;
     border: 1px solid #626262;
     padding: 20px 36px;
-    margin-bottom: 70px;
+    display: block;
     cursor: pointer;
+    outline: none;
+    margin: 0 auto 70px auto;
 }
