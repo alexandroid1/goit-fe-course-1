@@ -236,8 +236,7 @@ nav a:hover {
     background-color: transparent;
     border: rgba(255, 252, 252, 1) 1px solid;
     color: rgba(255, 252, 252, 1);
-    margin-bottom: 10px;
-    margin-right: 2px; 
+    margin: 0 3px 10px 0;
     background-repeat: no-repeat;
     opacity: 0;
     outline: none;    
@@ -245,12 +244,11 @@ nav a:hover {
 }
 
 .new_collection_button:last-child {
-    margin-bottom: 0;
-    margin-right: 0;
+    margin: 0;
     float: none;
 }
 
-.new_collection_button:(:last-child-1){
+.new_collection_button:nth-last-child(2){
     margin-right: 0;
 }
 
