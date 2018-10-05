@@ -154,7 +154,7 @@ nav {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     display: block;
-    background-color: #8c8c8c;
+    background-color: rgba(255, 255, 255, .5);
     color: #ffffff;
     width: 52px;
     float: right;
