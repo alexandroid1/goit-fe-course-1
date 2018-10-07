@@ -113,6 +113,7 @@ header {
      font-family: 'Montserrat', sans-serif;
      color: #333333;
      font-size: 14;
+     font-weight: 500;
      text-transform: uppercase;
      margin-top: 0;
  }
@@ -200,6 +201,8 @@ header {
 .photo_name {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    font-weight: 500;
+    margin-top: 40px;
     color: #333333;
     text-transform: uppercase;
     text-align: center;
