@@ -112,7 +112,8 @@ nav {
     background-color: #1abc9c;            
 }
 .products_item img {
-    position: absolute;
+    display: block;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -121,10 +122,9 @@ nav {
 .product_picture {
     height: 284px;
     width: 254px;
+    background-color: #e9f0fd;
     margin: 0;
     padding: 0;
-    background-color: #e9f0fd;
-    position: relative;
 }
 
 .products_item {
