@@ -1,3 +1,62 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+  }
+  /* montserrat-800 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+         url('../fonts/montserrat-v12-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v12-latin-800.woff') format('woff'), /* Modern Browsers */
+         
+  }
+  /* montserrat-900 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Montserrat Black'), local('Montserrat-Black'),
+         url('../fonts/montserrat-v12-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v12-latin-900.woff') format('woff'), /* Modern Browsers */
+  }
+
+
+  /* amiri-italic - latin */
+@font-face {
+    font-family: 'Amiri';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Amiri Italic'), local('Amiri-Italic'),
+         url('../fonts/amiri-v11-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/amiri-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
+  }
+
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto-slab-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
+
 html {
     box-sizing: border-box;
 }
@@ -38,6 +97,8 @@ h1, h2, h3 {
 
 .logo {
     color: #fed136;
+    font-family: 'Montserrat';
+    font-size: 26px;
 }
 
 .menu_list {
@@ -48,7 +109,12 @@ h1, h2, h3 {
 
 .menu_list_item a {
     text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: #222222;
 }
+
 
 .menu_list_item a:hover, .menu_list_item a:focus {
     color: #fed136;
@@ -58,10 +124,19 @@ h1, h2, h3 {
 .section_title {
     text-align: center;
     text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
 }
 
+  
 .section_subtitle {
     text-align: center;
+    font-family: 'Amiri';
+    font-style: italic;
+    font-size: 16px;
+    color: #777777;
 }
 
 main .section_subtitle {
@@ -82,10 +157,17 @@ main .section_subtitle {
 
 .main_item_title {
     text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
 }
 
 .main_item_description {
     text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    color: #777777;
 }
 
 .icon::before {
@@ -134,10 +216,11 @@ main .section_subtitle {
     padding-top: 120px;
 }
 
-.contact_us_form {
+
+.text_area_container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 input {
@@ -147,16 +230,34 @@ input {
     padding: 10px;
 }
 
+.form_font {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #222222;
+    font-weight: bold;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
 button {
     margin-top: 30px;
     padding: 22px 46px;
     background-color: #fed136;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
     border: none;
     outline: none;
     cursor: pointer;
     color: #ffffff;
     border-radius: 5px;
     text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
 }
 
 .input_item {
