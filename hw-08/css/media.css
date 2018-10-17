@@ -1,0 +1,137 @@
+@media (max-width: 599px){
+    .container {
+        width: 320px;
+        padding: 0 20px;
+    }
+    .bg_wrapper {
+        height: 540px;
+    }
+
+    /*header*/
+
+    .site_header {
+        flex-direction: column;
+        align-items: center;
+        flex-flow: column-reverse;
+    }
+
+    .login_button_list {
+        margin: 20px 0 116px 0;
+    }
+
+    .site_header {
+        margin-bottom: 38px;
+    }
+
+    .holiday_dreams_subtitle {
+        width: 224px;
+    }
+
+    /*PArtner*/
+
+    .partner_list_item {
+        margin-bottom: 20px;
+    }
+
+    .partner_list_item:last-child {
+        margin-bottom: 0;
+    }
+
+    .partner_list {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 941px) {
+    .container {
+        width: 492px;
+    }
+
+    .bg_wrapper {
+        height: 700px;
+    }
+
+    .site_header {
+        justify-content: space-between;
+        padding: 46px 20px 0 20px;
+        margin-bottom: 160px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .holiday_dreams_title {
+        font-size: 50px;
+    }
+
+    .holiday_dreams_subtitle {
+        font-size: 22px;
+    }
+
+    /*PARTNER*/
+
+    .partner_list_item {
+        width: 236px;
+        padding: 0 20px;
+    }
+
+    .partner_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (min-width: 942px) {
+    .site_header {
+        max-width: 942px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 492px;
+    }
+
+    .bg_wrapper {
+        height: 700px;
+    }
+
+    .site_header {
+        justify-content: space-between;
+        padding-top: 46px;
+        margin-bottom: 160px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .holiday_dreams_title {
+        font-size: 50px;
+    }
+
+    .holiday_dreams_subtitle {
+        font-size: 22px;
+    }
+
+    /*PARTNER*/
+
+    .partner_list_item {
+        width: 220px;
+        
+    }
+
+    .partner_list {
+        display: flex;
+        justify-content: space-between;  
+        margin-bottom: 40px;  
+        min-width: 942px;    
+    }
+
+    .partner {
+        min-width: 942px;
+    }
+}
