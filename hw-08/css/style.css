@@ -65,6 +65,8 @@ a {
     margin-bottom: 70px;
     background: url(../img/bg_desktop.png) no-repeat center;
     width: 100%;
+    background-position: center;
+    background-size: cover;
     
 }
 
