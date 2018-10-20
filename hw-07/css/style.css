@@ -199,9 +199,9 @@ main .section_subtitle {
 .contact_us_wrapper {
     min-height: 676px;
     background: url(../img/Background.png);
-    background-size: cover;
+    background-color: #222222;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
 
 .contact_us .section_title, .contact_us .section_subtitle {
