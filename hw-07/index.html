@@ -82,25 +82,25 @@
             <section class="contact_us container">
                 <h2 class="section_title">Contact us</h2>
                 <p class="section_subtitle">Proin iaculis purus consequat sem cure.</p>
-                <form class="contact_us_form" action="get">
+                <form class="contact_us_form" id="contact_form" action="get">
                   <div class="text_area_container">
                     <ul class="form_input">
                         <li class="input_item">
-                            <input class="form_font important" type="text" name="name" placeholder="Your name*">
+                            <input class="form_font important" type="text" id="input_name" name="name" placeholder="Your name*">
                         </li>
 
                         <li class="input_item">
-                            <input class="form_font important" type="email" name="email" placeholder="Your e-mail*">
+                            <input class="form_font important" type="email" id="input_email" name="email" placeholder="Your e-mail*">
                         </li>
 
                         <li class="input_item">
-                            <input class="form_font" type="text" name="subject" placeholder="Subject">
+                            <input class="form_font" type="text" id="input_subject" name="subject" placeholder="Subject">
                         </li>                        
                     </ul>
 
-                    <textarea class="form_font important" name="your_text" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <textarea class="form_font important" name="your_text" id="message_text" cols="30" rows="10" placeholder="Your message"></textarea>
                     </div>
-                    <button>Send Message</button>
+                    <button class="send_message" type="button" id="send_message_button">Send Message</button>
                 </form>
             </section>
     </div>
