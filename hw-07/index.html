@@ -78,32 +78,29 @@
         </ul>
     </main>
 
-    <div class="contact_us_wrapper">
-            <section class="contact_us container">
+            <section class="contact_us">
                 <h2 class="section_title">Contact us</h2>
                 <p class="section_subtitle">Proin iaculis purus consequat sem cure.</p>
-                <form class="contact_us_form" id="contact_form" action="get">
+                <form class="contact_us_form container" id="contact_form" action="get">
                   <div class="text_area_container">
                     <ul class="form_input">
                         <li class="input_item">
-                            <input class="form_font important" type="text" id="input_name" name="name" placeholder="Your name*">
+                            <input class="input_info form_font important" type="text" id="input_name" name="name" placeholder="Your name*">
                         </li>
 
                         <li class="input_item">
-                            <input class="form_font important" type="email" id="input_email" name="email" placeholder="Your e-mail*">
+                            <input class="input_info form_font important" type="email" id="input_email" name="email" placeholder="Your e-mail*">
                         </li>
 
                         <li class="input_item">
-                            <input class="form_font" type="text" id="input_subject" name="subject" placeholder="Subject">
+                            <input class="input_info form_font" type="text" id="input_subject" name="subject" placeholder="Subject">
                         </li>                        
                     </ul>
 
                     <textarea class="form_font important" name="your_text" id="message_text" cols="30" rows="10" placeholder="Your message"></textarea>
                     </div>
-                    <button class="send_message" type="button" id="send_message_button">Send Message</button>
+                    <input class="send_message" type="submit"  id="send_message_button" value="Send Message">
                 </form>
-            </section>
-    </div>
-    
+            </section>    
 </body>
 </html>

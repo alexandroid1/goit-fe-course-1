@@ -16,20 +16,6 @@ html {
     margin: 0 auto;
 }
 
-ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-}
 
 /*HEADER*/
 
@@ -74,6 +60,7 @@ h1, h2, h3 {
     font-family: "Montserrat";
     color: rgb(34, 34, 34);
     font-weight: bold;
+    margin-bottom: 28px;
 }
 
   
@@ -143,11 +130,7 @@ main .section_subtitle {
 /*CONTACT US*/
 
 .contact_us_wrapper {
-    min-height: 676px;
-    background: url(../img/Background.png);
-    background-color: #222222;
-    background-repeat: no-repeat;
-    background-position: right;
+    
 }
 
 .contact_us .section_title, .contact_us .section_subtitle {
@@ -159,6 +142,11 @@ main .section_subtitle {
 }
 
 .contact_us {
+    min-height: 676px;
+    background: url(../img/Background.png);
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-position: right;
     padding-top: 120px;
 }
 
@@ -169,7 +157,7 @@ main .section_subtitle {
     margin-bottom: 60px;
 }
 
-input {
+.input_info {
     width: 454px;
     height: 54px;
     border-radius: 5px;
