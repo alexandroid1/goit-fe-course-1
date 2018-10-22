@@ -233,7 +233,6 @@ header {
     top: 0;
     left: 0;      
     z-index: 3;
-  /*  display: none;*/
     transition: all 200ms linear;
 }
 
