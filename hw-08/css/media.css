@@ -17,17 +17,17 @@
         margin-bottom: 116px;
     }
 
-    .holiday_dreams {
+    .site_caption {
         height: 540px;
     }
 
 
-    .holiday_dreams_subtitle {
+    .site_caption_subtitle {
         width: 224px;
         font-size: 18px;
     }
 
-    .holiday_dreams_title {
+    .site_caption_title {
         width: 280px; 
         font-size: 28px;
     }
@@ -61,11 +61,11 @@
         margin-left: 20px;
     }
 
-    .holiday_dreams_title {
+    .site_caption_title {
         font-size: 50px;
     }
 
-    .holiday_dreams_subtitle {
+    .site_caption_subtitle {
         font-size: 22px;
     }
 
@@ -101,12 +101,12 @@
         margin-left: 30px;
     }
 
-    .holiday_dreams_title {
+    .site_caption_title {
         font-size: 50px;
         width: 490px;
     }
 
-    .holiday_dreams_subtitle {
+    .site_caption_subtitle {
         font-size: 22px;
     }
 

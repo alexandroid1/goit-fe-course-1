@@ -77,7 +77,7 @@ a {
 
 /*headers*/
 
-.holiday_dreams {
+.site_caption {
     padding-top: 226px;
     margin: 0 auto 70px auto;
     background: url(../img/bg_desktop.png) no-repeat center;
@@ -89,7 +89,7 @@ a {
 }
 
 
-.holiday_dreams_title {
+.site_caption_title {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-weight: 700;
@@ -99,7 +99,7 @@ a {
     display: inline-block;
 }
 
-.holiday_dreams_subtitle {
+.site_caption_subtitle {
     margin: 0 auto;
     font-family: 'Roboto';
     color: #ffffff;
@@ -157,7 +157,13 @@ a {
     margin: 0 auto 20px auto;
 }
 
-.icon {
+.person img {
+    border-radius: 50%;
+}
+
+.icon::after {
+    content: '';
+    display: block;
     position: absolute;
     height: 40px;
     width: 40px;
@@ -167,24 +173,25 @@ a {
     background-position: center;
     top: 90px;
     left: 70%;
+    
 }
 
-.icon_1 {    
+.icon_1::after {  
     background-color: #ff4e50;
     background-image: url(../img/icon_1.png);
 }
 
-.icon_2 {    
+.icon_2::after {    
     background-color: #ffa507;
     background-image: url(../img/icon_2.png);
 }
 
-.icon_3 {    
+.icon_3::after {    
     background-color: #1cd7ad;
     background-image: url(../img/icon_3.png);
 }
 
-.icon_4 {    
+.icon_4::after {    
     background-color: #4e73db;
     background-image: url(../img/icon_4.png);
 }
