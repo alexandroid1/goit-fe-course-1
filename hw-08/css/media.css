@@ -63,7 +63,6 @@
 
     .site_caption_title {
         font-size: 50px;
-        width: 490px;
     }
 
     .site_caption_subtitle {
@@ -86,8 +85,7 @@
 
 }
 
-@media (min-width: 942px) {
-    
+@media (min-width: 942px) {    
 
     .container {
         width: 492px;
@@ -104,7 +102,6 @@
 
     .site_caption_title {
         font-size: 50px;
-        width: 490px;
     }
 
     .site_caption_subtitle {
