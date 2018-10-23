@@ -27,11 +27,7 @@ a {
 }
 
 .bg_wrapper {
-    margin-bottom: 70px;
-    background: url(../img/bg_desktop.png) no-repeat center;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+    
     
 }
 
@@ -44,12 +40,16 @@ a {
 
 .site_header {
     display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 46px 0;
 }
 
 .login_button_list {
     display: flex;
     justify-content: space-between;
     width: 190px;
+    margin-right: 20px;
 }
 
 .login_button {
@@ -75,14 +75,28 @@ a {
     display: block;
 }
 
+/*headers*/
+
+.holiday_dreams {
+    padding-top: 226px;
+    margin: 0 auto 70px auto;
+    background: url(../img/bg_desktop.png) no-repeat center;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
 .holiday_dreams_title {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 28px;
     font-weight: 700;
+    line-height: 1.3;
     text-transform: uppercase;
-    text-align: center;
     margin-bottom: 30px;
+    display: inline-block;
 }
 
 .holiday_dreams_subtitle {
@@ -90,8 +104,6 @@ a {
     font-family: 'Roboto';
     color: #ffffff;
     font-weight: 300;
-    font-size: 18px;
-    text-align: center;
     margin-bottom: 40px;
 }
 

@@ -3,28 +3,33 @@
         width: 320px;
         padding: 0 20px;
     }
-    .bg_wrapper {
-        height: 540px;
-    }
 
     /*header*/
 
     .site_header {
+        padding-top: 30px;
         flex-direction: column;
         align-items: center;
         flex-flow: column-reverse;
     }
 
     .login_button_list {
-        margin: 20px 0 116px 0;
+        margin-bottom: 116px;
     }
 
-    .site_header {
-        margin-bottom: 38px;
+    .holiday_dreams {
+        height: 540px;
     }
+
 
     .holiday_dreams_subtitle {
         width: 224px;
+        font-size: 18px;
+    }
+
+    .holiday_dreams_title {
+        width: 280px; 
+        font-size: 28px;
     }
 
     /*PArtner*/
@@ -47,13 +52,8 @@
         width: 492px;
     }
 
-    .bg_wrapper {
-        height: 700px;
-    }
-
     .site_header {
         justify-content: space-between;
-        padding: 46px 20px 0 20px;
         margin-bottom: 160px;
     }
 
@@ -86,31 +86,24 @@
 }
 
 @media (min-width: 942px) {
-    .site_header {
-        max-width: 942px;
-        margin: 0 auto;
-    }
+    
 
     .container {
         width: 492px;
     }
 
-    .bg_wrapper {
-        height: 700px;
-    }
-
     .site_header {
         justify-content: space-between;
-        padding-top: 46px;
-        margin-bottom: 160px;
+        
     }
 
     .logo {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .holiday_dreams_title {
         font-size: 50px;
+        width: 490px;
     }
 
     .holiday_dreams_subtitle {
@@ -132,6 +125,6 @@
     }
 
     .partner {
-        min-width: 942px;
+        width: 942px;
     }
 }
